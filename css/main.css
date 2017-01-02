@@ -1,0 +1,203 @@
+/*********************************
+	General
+*********************************/
+
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Source Serif Pro', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+/*********************************
+	Header
+*********************************/
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Baloo Thambi', sans-serif;
+	margin: 15px 0;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+a {
+	color: #45b3e7;
+}
+
+img {
+	max-width: 100%;
+}
+/*********************************
+	Navigation
+*********************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+/*********************************
+	Footer
+*********************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+/*********************************
+	Page: Portfolio
+*********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #f0899c;
+}
+
+#gallery  li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #f0899c;
+}
+
+/*********************************
+	Page: About
+*********************************/
+
+.profile-photo {
+	display: block;
+	max-width: 300px;
+	margin: 0 auto 30px;
+	border-radius: 20px;
+}
+
+/*********************************
+	Page: Contact
+*********************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+
+/*********************************
+	Colors
+*********************************/
+
+/* Baby Blue Color*/
+header {
+	background: #89cff0;
+}
+
+/* Logo Text */
+h1, h2 {
+	color: #fff;
+}
+
+nav {
+	background: #45b3e7; 
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected {
+	color: #f0de89;
+}
+
+/*  */
+body {
+	background-color: #fff;
+	color: #999;
+}
